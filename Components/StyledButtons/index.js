@@ -4,14 +4,14 @@ import styles from "./styles";
 
 const StyledButtons = (props) => {
   return (
-    <View>
+    <View style={styles.container}>
       <Pressable
         style={styles.buttons}
         onPress={() => {
           console.warn("hey there");
         }}
       >
-        <Text>Custom Order</Text>
+        <Text style={styles.text}>Custom Order</Text>
       </Pressable>
     </View>
   );
