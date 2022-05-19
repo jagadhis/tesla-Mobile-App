@@ -1,8 +1,10 @@
 {
   "expo": {
-    "name": "weatherapp",
-    "slug": "weatherapp",
+    "name": "Tesla-app",
+    "slug": "Tesla-app",
     "version": "1.0.0",
+    "privacy": "public",
+    "description": "tesla clone in react-native",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -18,13 +20,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jagadhiswaran.Teslaapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.jagadhiswaran.Teslaapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
