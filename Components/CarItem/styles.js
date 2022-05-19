@@ -1,5 +1,4 @@
-import { StyleSheet, Dimentions } from "react-native";
-import { Dimensions } from "react-native-web";
+import { StyleSheet, Dimensions } from "react-native";
 
 const styles = StyleSheet.create({
   carContainer: {

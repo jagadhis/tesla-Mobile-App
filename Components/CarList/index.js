@@ -1,9 +1,11 @@
-import react from "react";
+import React from "react";
 import { View, Text, FlatList, Dimensions } from "react-native";
-import styles from "./styles";
 import CarItem from "../CarItem/Index";
+
+import styles from "./styles";
 import cars from "./cars";
-const CarList = (props) => {
+
+const CarsList = (props) => {
   return (
     <View style={styles.container}>
       <FlatList
@@ -18,4 +20,4 @@ const CarList = (props) => {
   );
 };
 
-export default CarList;
+export default CarsList;
